@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,GAAG;CACb",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;CACZ;;ACHD,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAQd;;AAPE,AACC,iBADI,CACJ,WAAW,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;CAC1B",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "bases/_genbase.scss",
+        "layout/_header.scss"
     ],
     "names": [],
     "file": "style.css"
