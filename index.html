@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styless/style.css" />
+    <!--_________________ animation site aos_____________________ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>projet site cuisine</title>
   </head>
   <body>
@@ -14,7 +17,11 @@
         <div class="header_bloc">
           <!--_________________ bloc header left_____________________ -->
           <div class="header_bloc_left">
-            <div class="smallcarre"></div>
+            <div
+              class="smallcarre"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            ></div>
             <!--_________________ bloc header left part right_____________________ -->
             <div class="header_bloc_left_right">
               <h1>Simple Way To Start Eating Healthier</h1>
@@ -28,14 +35,24 @@
               <button class="btn">
                 <p>connexion</p>
               </button>
+              <h2>Salads</h2>
             </div>
             <!--_________________ fin bloc header left part right_____________________ -->
           </div>
           <!--_________________fin bloc header left_____________________ -->
           <!--_________________ bloc header right_____________________ -->
           <div class="header_bloc_right">
-            <div class="largecarre"></div>
-            <img src="./public/img/salad.jpg" alt="salade" />
+            <div
+              class="largecarre"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            ></div>
+            <img
+              src="./public/img/salad.jpg"
+              alt="salade"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            />
 
             <h1>Salads</h1>
           </div>
@@ -44,5 +61,11 @@
       </header>
       <!--_________________ fin bloc header_____________________ -->
     </main>
+    <!--_________________ script animation site aos_____________________ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--_________________ fin script animation site aos_____________________ -->
   </body>
 </html>

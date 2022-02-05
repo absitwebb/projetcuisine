@@ -6,17 +6,18 @@
       .largecarre {
         width: 300px;
         height: 300px;
-        position: absolute;
         top: 50px;
         left: 50px;
         transform: rotate(90deg);
       }
       img {
-        position: absolute;
         width: 260px;
         height: 290px;
         top: 90px;
         left: 50px;
+      }
+      h1 {
+        display: none;
       }
     }
     &_left {
@@ -28,9 +29,15 @@
         width: 100px;
         height: 100px;
         top: 55px;
-        left: 330px;
         top: 100px;
         left: 80px;
+        margin-top: 200px;
+      }
+      &_right {
+        margin-top: 200px;
+        h2 {
+          display: block;
+        }
       }
     }
   }
