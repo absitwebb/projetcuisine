@@ -1,0 +1,30 @@
+.sectiontwo-fond {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(170, 159, 159, 0.3)
+  );
+}
+.sectiontwo {
+  width: 100%;
+  height: 100%;
+  background: bottom center no-repeat url("../../public/img/fondlegumes.png");
+  &_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    h1 {
+      font-size: 2rem;
+      font-style: italic;
+      font-family: "Niconne", cursive;
+    }
+    p {
+      width: 60%;
+      color: #636d50;
+      font-size: 1.2rem;
+    }
+  }
+}
