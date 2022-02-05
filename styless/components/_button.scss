@@ -1,0 +1,22 @@
+.btn {
+  position: relative;
+  display: flex;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  width: 161px;
+  height: 45px;
+  border: none;
+  box-shadow: 6px 6px 8px black;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(179, 245, 27, 0.5)
+  );
+  p {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    bottom: 25%;
+    font-size: 20px;
+  }
+}

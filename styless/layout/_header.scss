@@ -1,9 +1,10 @@
+/* bloc header */
 .header_bloc {
   display: flex;
   background: #c3e288;
   width: 100%;
   height: 600px;
-
+  /* bloc header left */
   &_left {
     display: flex;
     flex: 1;
@@ -17,7 +18,7 @@
       top: 55px;
       left: 330px;
     }
-
+    /* bloc header left part right*/
     &_right {
       width: 50%;
       flex-direction: column;
@@ -34,14 +35,41 @@
         color: #636d50;
         margin-top: 30px;
       }
-      .btn {
-        display: block;
-        padding-top: 50px;
-      }
     }
+    /* bloc header right*/
   }
   &_right {
+    position: relative;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
     flex: 1.2;
+
+    .largecarre {
+      width: 480px;
+      height: 420px;
+      background: linear-gradient(
+        to right bottom,
+        rgb(255, 250, 250),
+        rgba(183, 243, 2, 0.808)
+      );
+      position: absolute;
+      top: 50px;
+      left: 155px;
+    }
+    img {
+      position: absolute;
+      width: 480px;
+      height: 420px;
+      top: 100px;
+      left: 205px;
+    }
+    h1 {
+      color: white;
+      font-size: 15rem;
+      z-index: 1;
+      margin-bottom: -50px;
+    }
   }
 }
