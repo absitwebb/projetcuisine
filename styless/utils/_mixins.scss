@@ -1,12 +1,12 @@
 /* délaration de mixins */
 /*  mixin bloc section two */
-@mixin sectiontwo {
+@mixin sectiontwo($stwowith, $stwoheigth, $stwomargleigh) {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  height: 390px;
+  width: $stwowith;
+  height: $stwoheigth;
   background: rgba(238, 238, 220, 0.8);
-  margin-left: 70px;
+  margin-left: $stwomargleigh;
   padding-left: 20px;
   padding-top: 40px;
 
@@ -23,7 +23,7 @@
   p {
     font-size: 1.3rem;
     padding-top: 30px;
-    font-family: "Niconne", cursive;
+    font-family: "Times New Roman", Times, serif;
     color: #636d50;
   }
 }
